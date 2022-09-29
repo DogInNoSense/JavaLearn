@@ -1,6 +1,6 @@
 package com.xyz.loop;
 
-public class BreakAndContinueDemo9 {
+public class BreakAndContinueDemo8 {
     public static void main(String[] args) {
         // 理解break 和 continue的作用
         for (int i = 0; i < 5; i++) {
