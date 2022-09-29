@@ -11,6 +11,6 @@ public class ArrayDemo2 {
         System.out.println(ages[2]);
         //访问数组长度
         System.out.println(ages.length);
-
+        //数组的最大索引 arr.length - 1 前提是数组的元素个数大于0
     }
 }
