@@ -12,5 +12,7 @@ public class ArrayDemo1 {
 //        String[] names = new String[]{"牛二", "全蛋", "老王"};
         String[] names = {"牛二", "全蛋", "老王"};
 
+        System.out.println(scores); // 输出地址
+
     }
 }
