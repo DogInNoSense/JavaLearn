@@ -6,12 +6,18 @@ public class WhileDemo4 {
         double paperThickness = 0.1;//纸张厚度0.1
         //折叠多少起可以折成珠穆朗玛峰的高度
         int count = 0;
-        while (paperThickness < peakHeight) {
+//        while (paperThickness < peakHeight) {
+//            paperThickness *= 2;
+//            count++;
+//        }
+//        System.out.println(count);
+//        System.out.println("纸张的最终厚度:" + paperThickness);
+
+        for (; paperThickness < peakHeight; ) {
             paperThickness *= 2;
             count++;
         }
         System.out.println(count);
         System.out.println("纸张的最终厚度:" + paperThickness);
-
     }
 }
