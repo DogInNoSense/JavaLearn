@@ -34,7 +34,7 @@ public class Test2 {
         // 另外一种复杂方式  by xyz
         int sum = 0;
         for (int i = 101; i < 201; i++) {
-            int count = 0;
+            int count = 0;// 记录内层循环次数
             for (int j = 2; j < i / 2; j++) {
                 if (i % j == 0) {
                     continue;
