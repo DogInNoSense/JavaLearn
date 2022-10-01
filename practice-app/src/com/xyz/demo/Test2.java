@@ -31,7 +31,7 @@ package com.xyz.demo;
 
 public class Test2 {
     public static void main(String[] args) {
-        // 另外一种复杂方式(by.xyz)
+        // 另外一种复杂方式(by.xyz)..
         int sum = 0;
         for (int i = 101; i < 201; i++) {
             int count = 0;// 记录内层循环次数
