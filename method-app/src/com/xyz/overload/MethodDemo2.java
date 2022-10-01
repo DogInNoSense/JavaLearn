@@ -29,6 +29,7 @@ public class MethodDemo2 {
 
     // 新方法
     public static void OPEN() {
+
     }
 }
 }
