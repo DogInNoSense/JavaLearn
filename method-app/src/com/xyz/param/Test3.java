@@ -9,19 +9,24 @@ public class Test3 {
         System.out.println("--------------------------------");
         int numbers[] = {1, 2, 3, 9, 10};
         printArray(numbers);
+        int empty[] = {};
+        printArray(empty);
     }
 
 
     public static void printArray(int arr[]) {
         System.out.print("[");
-        for (int i = 0; i < arr.length; i++) {
+        if (arr != null && arr.length > 0) {
+            for (int i = 0; i < arr.length; i++) {
 //            if (i < arr.length - 1) {
 //                System.out.print(arr[i] + ",");
 //            } else {
 //                System.out.print(arr[i]);
 //            }
-            System.out.print(i == arr.length - 1 ? arr[i] : arr[i] + ",");
+                System.out.print(i == arr.length - 1 ? arr[i] : arr[i] + ",");
+            }
         }
+
 //        System.out.print("]");
         System.out.println("]");
     }
