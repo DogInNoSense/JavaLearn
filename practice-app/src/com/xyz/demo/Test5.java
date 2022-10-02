@@ -14,6 +14,8 @@ public class Test5 {
 
             scores[i] = score;
         }
+        System.out.println("您输入的所有成绩为:");
+        printArray(scores);
         // 遍历数组的每个数据 找出最大值 最小值 总分
         int max = scores[0], min = scores[0], sum = scores[0];
         for (int i = 1; i < scores.length; i++) {
@@ -25,6 +27,14 @@ public class Test5 {
             }
 
         }
-        System.out.println("最大值是:" + max + "最小值是:" + min + "总分为:" + (sum - (max + min)) / (scores.length-2));
+        System.out.println("最大值是:" + max + "\t最小值是:" + min + "\t总分为:" + (sum - (max + min)) / (scores.length - 2));
+    }
+
+    public static void printArray(int arr[]) {
+        System.out.print("[");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(i == arr.length - 1 ? arr[i] : arr[i] + ",");
+        }
+        System.out.println("]");
     }
 }
