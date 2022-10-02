@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Test3 {
     public static void main(String[] args) {
-        String code = createCode(5);
-        System.out.println("随机验证码是" + code);
+        String code = createCode(6);
+        System.out.println("随机验证码是:" + code);
     }
 
     // 1.定义一个方法返回一个随机验证码 可能是英文大小写字母 数字
