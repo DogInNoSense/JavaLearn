@@ -16,7 +16,6 @@ public class Test7 {
         // 判断中奖情况
         judge(luckNumbers, userNumbers);
 
-
     }
 
     public static void judge(int luckNumbers[], int userNumbers[]) {
