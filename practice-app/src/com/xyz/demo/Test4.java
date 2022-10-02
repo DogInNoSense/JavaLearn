@@ -5,6 +5,8 @@ public class Test4 {
         // 把一个数组复制到另一个数组中
         int arr1[] = {11, 22, 33, 44};
         int arr2[] = new int[arr1.length];
+//        arr2 = arr1;
+//        printArray(arr2);
         copy(arr1, arr2);
         System.out.println(arr1);// 查看地址
         System.out.println(arr2);

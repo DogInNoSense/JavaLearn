@@ -31,6 +31,7 @@ public class Test6 {
 
     }
 
+    // 打印数组
     public static void printArray(int arr[]) {
         System.out.print("[");
         for (int i = 0; i < arr.length; i++) {
