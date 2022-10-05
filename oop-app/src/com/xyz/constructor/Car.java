@@ -5,7 +5,7 @@ public class Car {
     double price;
 
 
-    // 无参构造器
+    // 无参构造器 (任何类写出来自带一个无参构造器,但是如果定义了一个有参构造器,无参构造器必须自己写一个)
 
 
     public Car() {
