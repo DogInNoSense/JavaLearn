@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StringEqualsDemo4 {
     public static void main(String[] args) {
-        // 1.正确登录名和密码
+        // 1.正确的登录名和密码
         String okName = "xyz";
         String okPassWord = "123456";
 
