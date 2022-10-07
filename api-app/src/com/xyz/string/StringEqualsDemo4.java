@@ -24,7 +24,7 @@ public class StringEqualsDemo4 {
         // 4.忽略大小写比较内容的Api:一般用于比较验证码这样的业务逻辑
         String sysCode = "23AdFh";
         String code1 = "23aDfH";
-        System.out.println(sysCode.equalsIgnoreCase(code1));
+        System.out.println(sysCode.equalsIgnoreCase(code1)); // true
 
     }
 
